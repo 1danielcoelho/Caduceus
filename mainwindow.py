@@ -97,12 +97,6 @@ class MainWindow(Frame):
         if self.image is None:
             return
 
-        # size = (event.width, event.height)
-        # resized = self.image.resize(size, PIL.Image.NORMAL)
-        # self.photo = PIL.ImageTk.PhotoImage(resized)
-        # self.canvas.delete("IMG")
-        # self.canvas.create_image(size[0]/2, size[1]/2, image=self.photo, anchor=CENTER, tags="IMG")
-
     def show_right_click_menu(self, e):
         self.right_click_menu.post(e.x_root, e.y_root)
 

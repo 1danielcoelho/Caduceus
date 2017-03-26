@@ -2,7 +2,6 @@ import dicom
 from dicom.errors import InvalidDicomError
 import os
 import numpy as np
-from matplotlib import pyplot, cm
 
 
 def load_dicom_folder(folder_path):
