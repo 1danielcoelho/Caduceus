@@ -32,7 +32,7 @@ class MainWindow(Frame):
         self.init_toolbar()
 
         # Image canvas
-        self.canvas = Canvas(self.parent, bd=0, highlightthickness=0, bg="gray")
+        self.canvas = Canvas(self.parent, bd=0, highlightthickness=0)
         self.canvas.pack(side=TOP, expand=1)
         self.canvas.bind("<Button-3>", self.show_right_click_menu)  # <Button-3> is the right click event
         self.canvas.bind("<MouseWheel>", self.scroll_images)
