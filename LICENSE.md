@@ -1,4 +1,4 @@
-MIT License
+The content developed by 1danielcoelho is distributed under the MIT License:
 
 Copyright (c) 2017 1danielcoelho
 
